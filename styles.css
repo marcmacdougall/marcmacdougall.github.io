@@ -1,0 +1,419 @@
+/* The following rules all apply to desktop by default */
+
+:root {
+	--headers-color: #C9FFC2;
+	--font-color: #11E200;
+	--bg-color: #0A1246;
+	--div-color: #192BAB;
+	--border-rad: 15px;
+}
+
+
+/* Applicable To Multiple or All Pages */
+
+body {
+	background-color: var(--bg-color);
+	font-family: arial, sans-serif;
+	color: var(--font-color);
+	text-align: left;
+}
+
+*.nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: var(--div-color);
+	font-weight: bold;
+	padding: 20px;
+	border: solid black;
+	border-radius: var(--border-rad);
+}
+
+h1, h2, h4, caption {
+	color: var(--headers-color);
+	font-family: verdana, sans-serif;
+	text-align: center;
+	padding: 15px;
+	margin: 15px;
+}
+
+h1 ~ p {
+	margin: 30px 150px 30px 150px;
+}
+
+.list {
+	display: inline-block;
+	text-align: left;
+}
+
+li {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+img {
+	background-color: var(--div-color);
+	padding: 10px;
+	border: 5px ridge yellow;
+	border-radius: var(--border-rad);
+	margin: 10px;
+}
+
+.footer-return {
+	text-align: center;
+	padding: 20px;
+	margin: 20px;
+}
+
+#footer-flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#color-buttons {
+	background-color: var(--div-color);
+	padding: 20px;
+	border: solid black;
+	border-radius: var(--border-rad);
+}
+
+#footer-link, a[target="_blank"] {
+	text-decoration: underline;
+}
+
+a:link, a:visited {
+	color: var(--font-color);
+	text-decoration: none;
+}
+
+a:hover {
+	color: yellow;
+}
+
+a:active {
+	color: red;
+}
+
+::selection {
+	background-color: #C627DC;
+}
+
+
+
+/* Specific to index.html */
+
+
+#hero-image {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#index-grid {
+	display: flex;
+	flex-direction: row-reverse;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+#index-paragraphs {
+	padding: 75px;
+}
+
+#index-table {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}	
+
+#index-table table {
+	background-color: var(--div-color);
+	border: solid black;
+	border-collapse: collapse;
+	margin-top: 20px;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+#index-table tr, #index-table td {
+	padding: 20px;
+	border: solid black;
+}
+
+tr > td {
+	font-weight: bold;
+}
+
+
+
+/* Specific To about_me.html */
+
+#about-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#about-interests {
+	text-align: center;
+	padding: 40px;
+	margin: 30px;
+}
+
+#about-image {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
+
+
+
+/* Specific To goals.html */
+
+#goals-container {
+	display: grid;
+	grid-template-columns: auto auto;
+	justify-content: space-around;
+}
+
+#goals-image {
+	padding: 20px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+#goals-lists {
+	display: grid;
+	grid-template-rows: auto auto;
+	text-align: left;
+}
+
+ol li:hover {
+	color: yellow;
+	cursor: pointer;
+}
+
+
+
+/*Specific To experience.html */
+
+#experience-image {
+	display: flex;
+	justify-content: center;
+}
+
+
+
+/*Specific To projects.html */
+
+#projects-container {
+	display: grid;
+	grid-template-columns: auto auto;
+	justify-content: center;
+}
+
+#projects-paragraph {
+	text-align: left;
+	padding: 100px;
+	margin: 30px;
+}
+
+#projects-list {
+	background-color: var(--div-color);
+	text-align: center;
+	padding: 25px;
+	border: solid black;
+	border-radius: var(--border-rad);
+	margin: 30px;
+}
+
+
+
+/*Specific to future_of_ai.html */
+
+#future-ai-grid {
+	display: flex;
+	flex-direction: row;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+#future-ai-paragraph {
+	padding: 100px;
+}
+
+#videos {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: var(--div-color);
+	padding: 50px;
+	border: solid black;
+	border-radius: var(--border-rad);
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+
+
+/* Specific to contact.html */
+
+#contact-form {
+	background-color: var(--div-color);
+	border: solid black;
+	border-radius: var(--border-rad);
+	margin-left: 400px;
+	margin-right: 400px;
+}
+
+h1 + div {
+	text-align: center;
+}
+
+.input-color {
+	background-color: lightGray;
+}
+
+
+
+/* Media query for tablet sizes */
+
+@media screen and (max-width: 1000px) {
+	.nav {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	nav a {
+		padding: 10px;
+	}
+	
+	/* Specific to index.html */
+	#hero {
+		width: 95vw;
+	}
+	#index-grid {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	#index-image {
+		display: flex;
+		justify-content: center;
+	}
+	#index-paragraphs {
+		padding: 0px;
+	}
+	
+	/* Specific to about_me.html */
+	#about-image {
+		flex-direction: column;
+	}
+	#about-interests {
+		padding-top: 250px;
+		margin: 0px;
+	}
+	
+	/* Specific to goals.html */
+	#goals-container {
+		display: flex;
+		flex-direction: column;
+	}
+	#goals-image {
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	/* Specific to future_of_ai.html */
+	#future-ai-grid {
+		flex-direction: column;
+	}
+	#future-ai-paragraph {
+		padding: 0px;
+	}
+	#videos {
+		margin: 0px;
+	}
+	
+	/* Specific to contact.html */
+	#contact-form {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+	#submit, #reset {
+		margin: 10px;
+		padding: 5px;
+	}
+}
+
+
+
+/* Media query for mobile sizes */
+
+@media screen and (max-width: 400px) {
+	#footer-flex {
+		flex-direction: column;
+		margin-left: 200px;
+		margin-right: 200px;
+		align-items: center;
+		gap: 15px;
+	}
+	input[type=button] {
+		margin: 5px;
+		padding: 5px;
+	}
+	
+	/* Specific to index.html */
+	#dal-sign {
+		width: 350px;
+	}
+	
+	/* Specific to about_me.html */
+	#blomidon {
+		width: 40vw;
+	}
+	#cat {
+		width: 40vw;
+	}
+	h1 ~ p {
+		margin: 0px;
+	}
+	
+	/* Specific to goals.html */
+	#goldberg {
+		width: 80vw;
+	}
+	
+	/* Specific to projects.html */	
+	#projects-container {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	#projects-paragraph {
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	/* Specific to future_of_ai.html */
+	#code {
+		width: 70vw;
+	}
+	#videos {
+		flex-direction: column;
+		align-items: center;
+		padding-bottom: 100px;
+	}
+	#what-is-ai {
+		width: 75vw;
+		margin-bottom: 20px;
+	}
+	#machine-learning {
+		width: 75vw;
+	}
+	
+	/* Specific to contact.html */
+	#contact-form {
+		margin: 0px;
+	}
+}
