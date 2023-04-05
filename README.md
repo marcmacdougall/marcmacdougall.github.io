@@ -1,7 +1,4 @@
 # marcmacdougall.github.io
-This is a professional website designed by Marc MacDougall
-
-README
 
 This is a personal website designed by Marc MacDougall, specifically about his desire to one day become a software engineer. It utilizes HTML, CSS and JavaScript. It is comprised of 7 html files, 1 css file, 7 JavaScript files, 1 audio file, 8 image files and 2 video files. For this assignment, I reused html code and css code from the previous assignment.
 
@@ -15,36 +12,36 @@ ASSET LIST
 about_me.html		(html file for the "About Me" webpage)
 contact.html		(html file for the "Contact" webpage)
 experience.html		(html file for the "Experience" webpage)
-future_of_ai.html		(html file for the "Future of AI" webpage)
-goals.html			(html file for the "Goals" webpage)
-index.html			(html file for the Homepage)
+future_of_ai.html	(html file for the "Future of AI" webpage)
+goals.html		(html file for the "Goals" webpage)
+index.html		(html file for the Homepage)
 projects.html		(html file for the "Projects" webpage)
-styles.css			(CSS stylesheet for the entire website)
+styles.css		(CSS stylesheet for the entire website)
 js_about_me.js		(JavaScript file for the "About Me" webpage)
 js_contact.js		(JavaScript file for the "Contact" webpage)
-js_experience.js		(JavaScript file for the "Experience" webpage)
+js_experience.js	(JavaScript file for the "Experience" webpage)
 js_future_of_ai.js	(JavaScript file for the "Future of AI" webpage)
-js_goals.js			(JavaScript file for the "Goals" webpage)
-js_index.js			(JavaScript file for the Homepage)
+js_goals.js		(JavaScript file for the "Goals" webpage)
+js_index.js		(JavaScript file for the Homepage)
 js_projects.js		(JavaScript file for the "Projects" webpage)
-README.txt			(The README file you're currently reading)
+README.txt		(The README file you're currently reading)
 code_review.pdf		(PDF file for the reviewing code that can be improved with JavaScript)
 wireframes.pdf		(PDF file for the diagrams of my website)
 audio				
 	music.mp3		(mp3 file for the song that plays on every webpage)
 pics
-	blomidon.jpg	(image of Blomidon that diplays on the "About Me" webpage)
+	blomidon.jpg		(image of Blomidon that diplays on the "About Me" webpage)
 	code.jpg		(image of lines of code that displays of the "Future of AI" webpage)
-	dal_compsci.png	(image of the Dalhousie Faculty of Computer Science logo that appears on the "Experience" webpage) 
-	dal_logo.jpg	(image of the Dalhousie University entrance that displays on the Homepage)
+	dal_compsci.png		(image of the Dalhousie Faculty of Computer Science logo that appears on the "Experience" webpage) 
+	dal_logo.jpg		(image of the Dalhousie University entrance that displays on the Homepage)
 	favicon.png		(image for the favicon for every webpage)
-	goldberg.jpg	(image for the entrance to the Goldberg Building that appears on the "Goals" webpage)
+	goldberg.jpg		(image for the entrance to the Goldberg Building that appears on the "Goals" webpage)
 	harriet.jpg		(image of my cat that displays on the "About Me" webpage)
-	hero_image.jfif	(image I use for my hero image, that displays on the Homepage)
+	hero_image.jfif		(image I use for my hero image, that displays on the Homepage)
 video
-	what_is_ai.mp4	(mp4 file for the "What is AI?" video that displays on the "Future of AI" webpage)
-Contact: mailto:mr840651@dal.ca	(links to my Dalhousie email address)
-External Link: https://cs.dal.ca	(links to the homepage for the Dalhousie Faculty of Computer Science)
+	what_is_ai.mp4			(mp4 file for the "What is AI?" video that displays on the "Future of AI" webpage)
+Contact: mailto:mr840651@dal.ca					(links to my Dalhousie email address)
+External Link: https://cs.dal.ca				(links to the homepage for the Dalhousie Faculty of Computer Science)
 External Video:https://www.youtube.com/watch?v=iqJVVoluJzY	(links to the youtube video "Machine Learning Explained")
 
 
